@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Table } from './Table';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://clase38-mongodb.vercel.app';
 
 export const ReservasView = ({ token }) => {
   const [data, setData] = useState([]);

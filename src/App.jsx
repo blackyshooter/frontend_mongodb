@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ReservasView } from './components/ReservasView';
 import { UsuariosView } from './components/UsuariosView';
 
-const API_URL = 'https://clase38-mongodb.vercel.app/';
+const API_URL = 'https://clase38-mongodb.vercel.app';
 
 export default function App() {
   const [view, setView] = useState('reservas');
